@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passa ou Não Passa?</title>
+  </head>
+  <body>
+    <h1>Média das Provas</h1>
+    <div>
+      <input
+        id="nt_prova1"
+        type="number"
+        placeholder="Nota da Primeira Prova"
+      />
+    </div>
+
+    <div>
+      <input id="nt_prova2" type="number" placeholder="Nota da Segunda Prova" />
+    </div>
+
+    <div>
+      <button onclick="pegarNotas()">Enviar</button>
+    </div>
+    <div id="media_notas"></div>
+    <h1 id="passou?"></h1>
+  </body>
+  <script src="index.js"></script>
+</html>

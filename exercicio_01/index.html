@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Que Eleição Maluca</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Qual será a porcentagem desse fusuê?</h1>
+    <div>
+      <input
+        type="number"
+        id="nmr_habitantes"
+        placeholder="Total de Habitantes"
+      />
+    </div>
+    <div>
+      <input type="number" id="nmr_brancos" placeholder="Votos Brancos" />
+      <div id="pctg_brancos"></div>
+    </div>
+
+    <div>
+      <input type="number" id="nmr_nulos" placeholder="Votos Nulos" />
+      <div id="pctg_nulos"></div>
+    </div>
+
+    <div>
+      <input type="number" id="nmr_validos" placeholder="Votos Validos" />
+      <div id="pctg_validos"></div>
+    </div>
+    <div>
+      <button onclick="calcularPorcentagem()">Enviar</button>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

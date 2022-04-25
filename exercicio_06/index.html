@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deixa que eu Calculo!</title>
+  </head>
+  <body>
+    <h1>
+      Digite abaixo, o produto que você deseja comprar, a quantidade e o valor,
+      e deixa que eu calculo pra você o valor final, bem!
+    </h1>
+    <div>
+      <input id="nome_produto" type="text" placeholder="Digite o produto." />
+    </div>
+    <div>
+      <input id="qt_produto" type="number" placeholder="Digite a quantidade." />
+    </div>
+    <div>
+      <input id="valor_produto" type="number" placeholder="Digite o valor." />
+      <button onclick="calcular()">Enviar</button>
+    </div>
+    <h5>Valor Total</h5>
+    <div id="total_pagar"></div>
+
+    <h5>Total de Descontos</h5>
+    <div id="desconto"></div>
+
+    <h5>Valor Total a Pagar</h5>
+    <div id="total_pagar_desconto"></div>
+  </body>
+  <script src="index.js"></script>
+</html>
